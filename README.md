@@ -28,7 +28,7 @@ Ideal for health-conscious individuals, fitness enthusiasts, or anyone looking t
 
 ## Team Members
 
-- **Jordan Artzy-Mccendie** – 2112022
+- **Jordan Artzy-Mccendie** – 2112022 (Jartzy01)
 - **Jerwinson-Flores Cunanan** – 2220739 (ForbiddenKiwis)
 
 ## Timelines
