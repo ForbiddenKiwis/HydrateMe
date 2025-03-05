@@ -84,7 +84,7 @@
         <mxCell id="yyoqXMc6AiPhip3WyTMW-13" value="HydrationRecord" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="430" y="460" width="230" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="yyoqXMc6AiPhip3WyTMW-14" value="- dateTime: DateTime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="yyoqXMc6AiPhip3WyTMW-13" vertex="1">
+        <mxCell id="yyoqXMc6AiPhip3WyTMW-14" value="- dateTime: Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="yyoqXMc6AiPhip3WyTMW-13" vertex="1">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yyoqXMc6AiPhip3WyTMW-17" value="- litreConsumed: Double&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="yyoqXMc6AiPhip3WyTMW-13" vertex="1">
