@@ -7,17 +7,17 @@
 
 import Foundation
 
-class Reminder{
+class Reminders{
     private var id: Int
     private var msg: String
     private var time: Date
-    private var enabled: Bool
+    private var status: Bool
     
-    public init(id: Int, msg: String, time: Date, enabled: Bool) {
+    public init(id: Int, msg: String, time: Date, status: Bool) {
         self.id = id
         self.msg = msg
         self.time = time
-        self.enabled = enabled
+        self.status = status
     }
     
     public func getId() -> Int {
@@ -44,11 +44,11 @@ class Reminder{
         self.time = time
     }
     
-    public func getEnabled() -> Bool {
-        return enabled
+    public func getStatus() -> Bool {
+        return status
     }
     
-    public func setEnabled(enabled: Bool) {
-        self.enabled = enabled
+    public func setStatus(enabled: Bool) {
+        self.status = status
     }
 }
