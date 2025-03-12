@@ -7,17 +7,17 @@
 
 import Foundation
 
-class Reward{
-    private var rewardId: Int
+class Rewards{
+    private var id: Int
     private var name: String
-    private var dateAchieved: Date
+    private var dateEarned: Date
     private var threshold: Double
     private var img: String
     
-    public init(rewardId: Int, name: String, dateAchieved: Date, threshold: Double, img: String){
+    public init(rewardId: Int, name: String, dateEarned: Date, threshold: Double, img: String){
         self.rewardId = rewardId
         self.name = name
-        self.dateAchieved = dateAchieved
+        self.dateEarned = dateEarned
         self.threshold = threshold
         self.img = img
     }
@@ -38,12 +38,12 @@ class Reward{
         self.name = name
     }
     
-    public func getDateAchieved() -> Date {
-        return dateAchieved
+    public func getDateEarned() -> Date {
+        return dateEarned
     }
     
-    public func setDateAchieved(dateAchieved: Date) {
-        self.dateAchieved = dateAchieved
+    public func setDateEarned(dateEarned: Date) {
+        self.dateEarned = dateEarned
     }
     
     public func getThreshold() -> Double {
