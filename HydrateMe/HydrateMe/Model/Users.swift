@@ -29,6 +29,9 @@ class Users{
         self.password = password
         self.gender = gender
         self.hydrationGoal = hydrationGoal
+        self.hydrationHistory = []
+        self.rewards = []
+        self.reminders = []
     }
     
     public func getUserId() -> Int {
@@ -93,10 +96,10 @@ class Users{
     }
     
     public func activateReminder() -> Bool{
-        
+        return true
     }
     
     public func doesUserAlrHaveReward(id: Int) -> Bool {
-        
+        return false
     }
 }

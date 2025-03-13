@@ -49,6 +49,6 @@ class Reminders{
     }
     
     public func setStatus(enabled: Bool) {
-        self.status = status
+        self.status = enabled
     }
 }
