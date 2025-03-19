@@ -8,21 +8,37 @@
 import SwiftUI
 
 struct Tab: View {
+    @State var selectedTab = 0
     var body: some View {
-        TabView {
-            MainView()
-                .tabItem{
-                    Image("water 2")
+        ZStack(alignment: .bottom){
+            TabView(selection: $selectedTab) {
+                MainView()
+                    .tag(0)
+                
+                StatisticsView()
+                    .tag(1)
+                
+                ProfileView()
+                    .tag(2)
+            }
+            ZStack{
+                HStack{
+                    ForEach((TabbedItems.allCases), id: \.self){ item in
+                        Button{
+                            selectedTab = item.rawValue
+                        } label: {
+                            CustomTabItem(imageName: item.iconName, title: item.title, isActive: (selectedTab == item.rawValue))
+                        }
+                    }
                 }
-            StatisticsView()
-                .tabItem{
-                    Image("line-graph 2")
-                }
-            ProfileView()
-                .tabItem{
-                    Image("ellipse 1")
-                }
+                .padding(6)
+            }
+            .frame(height: 70)
+            .background(Color("navbar-blue"))
+            .cornerRadius(35)
+            .padding(.horizontal, 26)
         }
+
     }
 }
 
