@@ -8,11 +8,12 @@
 import Foundation
 
 class Rewards{
-    private var id: Int
+    private var rewardId: Int
     private var name: String
     private var dateEarned: Date
     private var threshold: Double
     private var img: String
+    
     
     public init(rewardId: Int, name: String, dateEarned: Date, threshold: Double, img: String){
         self.rewardId = rewardId

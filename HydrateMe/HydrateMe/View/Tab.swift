@@ -26,6 +26,9 @@ struct Tab: View {
     }
 }
 
-#Preview {
-    Tab()
+
+struct TabScreen_Previews: PreviewProvider {
+    static var previews: some View {
+        Tab()
+    }
 }
