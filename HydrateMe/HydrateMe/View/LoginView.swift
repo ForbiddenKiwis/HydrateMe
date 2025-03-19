@@ -11,8 +11,8 @@ struct LoginView: View {
     var body: some View {
         VStack(alignment: .center){
             Text("HydrateMe")
-                .font(.system(size: 70, weight: .bold, design: Font.Design?))
-                .f
+//                .font(.system(size: 70, weight: .bold, design: Font.Design?))
+                //.f
         }
         .background(
             Image("underwater")
